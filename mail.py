@@ -11,9 +11,9 @@ import time
 mail_content = "Hello, This is a test mail."
 
 #The mail addresses and password
-sender_address = <senders-mail>
-sender_pass = <senders-password>
-receiver_address = <receivers-mail>
+sender_address = "<senders-mail>"
+sender_pass = "<senders-password>"
+receiver_address = "<receiver-mail>"
 #Setup the MIME
 message = MIMEMultipart()
 message['From'] = sender_address
